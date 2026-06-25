@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Dilini Perera | Food Scientist, Biochemist & Grain Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">DP</span>
+        <span class="logo-text">Dr. Dilini Perera</span>
+      </a>
+
+      <!-- Desktop navigation -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu drawer -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <!-- SVG botanical illustration overlay -->
+    <div class="hero-botanical" aria-hidden="true">
+      <svg class="botanical-svg" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Wheat stalk 1 -->
+        <g class="botanical-group" style="--delay:0s">
+          <line x1="680" y1="580" x2="680" y2="80" stroke="rgba(212,168,83,0.25)" stroke-width="2"/>
+          <ellipse cx="680" cy="75" rx="8" ry="18" fill="none" stroke="rgba(212,168,83,0.35)" stroke-width="1.5" transform="rotate(-10 680 75)"/>
+          <ellipse cx="668" cy="110" rx="6" ry="14" fill="none" stroke="rgba(212,168,83,0.3)" stroke-width="1.5" transform="rotate(-30 668 110)"/>
+          <ellipse cx="692" cy="125" rx="6" ry="14" fill="none" stroke="rgba(212,168,83,0.3)" stroke-width="1.5" transform="rotate(30 692 125)"/>
+          <ellipse cx="665" cy="150" rx="6" ry="14" fill="none" stroke="rgba(212,168,83,0.25)" stroke-width="1.5" transform="rotate(-25 665 150)"/>
+          <ellipse cx="695" cy="165" rx="6" ry="14" fill="none" stroke="rgba(212,168,83,0.25)" stroke-width="1.5" transform="rotate(25 695 165)"/>
+        </g>
+        <!-- Wheat stalk 2 -->
+        <g class="botanical-group" style="--delay:0.3s">
+          <line x1="720" y1="580" x2="710" y2="100" stroke="rgba(212,168,83,0.2)" stroke-width="2"/>
+          <ellipse cx="710" cy="95" rx="8" ry="18" fill="none" stroke="rgba(212,168,83,0.3)" stroke-width="1.5" transform="rotate(8 710 95)"/>
+          <ellipse cx="698" cy="130" rx="6" ry="13" fill="none" stroke="rgba(212,168,83,0.25)" stroke-width="1.5" transform="rotate(-28 698 130)"/>
+          <ellipse cx="722" cy="145" rx="6" ry="13" fill="none" stroke="rgba(212,168,83,0.25)" stroke-width="1.5" transform="rotate(28 722 145)"/>
+        </g>
+        <!-- Leaf branch left -->
+        <g class="botanical-group" style="--delay:0.6s">
+          <path d="M 120 580 Q 100 400 140 200" stroke="rgba(27,67,50,0.2)" stroke-width="2" fill="none"/>
+          <path d="M 140 200 Q 80 220 60 280 Q 100 240 140 250" stroke="rgba(27,67,50,0.2)" stroke-width="1.5" fill="rgba(27,67,50,0.05)"/>
+          <path d="M 130 280 Q 70 300 50 360 Q 90 320 130 330" stroke="rgba(27,67,50,0.18)" stroke-width="1.5" fill="rgba(27,67,50,0.04)"/>
+          <path d="M 135 350 Q 160 290 200 270" stroke="rgba(27,67,50,0.18)" stroke-width="1.5" fill="none"/>
+          <path d="M 125 420 Q 150 360 190 340" stroke="rgba(27,67,50,0.15)" stroke-width="1.5" fill="none"/>
+        </g>
+        <!-- Circular science motif -->
+        <g class="botanical-group" style="--delay:0.9s">
+          <circle cx="400" cy="300" r="180" stroke="rgba(212,168,83,0.06)" stroke-width="1" fill="none"/>
+          <circle cx="400" cy="300" r="220" stroke="rgba(27,67,50,0.05)" stroke-width="1" fill="none" stroke-dasharray="4 8"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <!-- Credential eyebrow -->
+      <p class="hero-eyebrow reveal">Food Scientist · Biochemist · Grain Researcher</p>
+
+      <h1 class="hero-title reveal">
+        Dr. Dilini<br/>
+        <em>Perera</em>
+      </h1>
+
+      <p class="hero-subtitle reveal">
+        Advancing food science through grain compositional analysis, legume processing,<br class="break-desktop"/>
+        plant proteins, analytical chemistry, and sustainable product development.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="#research" class="btn btn-primary">View Research</a>
+        <a href="https://www.linkedin.com/in/dilini-perera-926a03116/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+      </div>
+
+      <!-- Animated stat counters -->
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-number" data-target="20">0</span>
+          <span class="stat-label">Scholar Articles</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="7">0</span>
+          <span class="stat-label">Years Research</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="3">0</span>
+          <span class="stat-label">Research Roles</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Photo / visual column -->
+        <div class="about-visual reveal">
+          <div class="photo-frame">
+            <img class="profile-photo" src="profile-image.jpeg" alt="Dr. Dilini Perera" />
+            <!-- Decorative label tag -->
+            <div class="specimen-label">
+              <span class="specimen-number">Specimen No. 001</span>
+              <span class="specimen-name">Food Scientist</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bio column -->
+        <div class="about-bio">
+          <p class="section-eyebrow reveal">About</p>
+          <h2 class="section-title reveal">A food scientist connecting <em>biochemistry</em>, grains, and product innovation</h2>
+
+          <div class="about-text reveal">
+            <p>
+              Dr. Dilini Perera is a food scientist, biochemist, and grain researcher with a strong background in food science, food chemistry, and biopolymer characterization. Her work spans legume processing, plant proteins, starch, bioactive compounds, and analytical method development.
+            </p>
+            <p>
+              Her doctoral research investigated the hard-to-cook defect in Australian legumes, linking post-harvest storage to changes in starch, protein, lipid, and cell wall composition. She applies HPLC, GC, LC-MS/MS, UV-Vis, rheology, texture analysis, microstructure imaging, and microbial quality control to understand food quality and processing performance.
+            </p>
+            <p>
+              At The University of Queensland, Dilini contributes to premium food and beverage research through the Australian Food & Beverage Accelerator (FaBA), specialising in oat-based and plant-protein systems and translating laboratory insights into commercial, sustainable food solutions.
+            </p>
+          </div>
+
+          <!-- Highlight cards -->
+          <div class="highlight-cards reveal">
+            <div class="highlight-card">
+              <span class="highlight-icon">🎓</span>
+              <span class="highlight-text">PhD Chemical and Biological Engineering</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">📄</span>
+              <span class="highlight-text">Food science, chemistry, and grain quality research</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">🏭</span>
+              <span class="highlight-text">Plant protein and oat-based product development</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">🔬</span>
+              <span class="highlight-text">Chromatography, rheology, and laboratory management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESEARCH INTERESTS ===================== -->
+  <section class="section research-interests" id="research">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Research Focus</p>
+        <h2 class="section-title">Areas of <em>Scientific Inquiry</em></h2>
+        <p class="section-intro">Grounded in analytical food science and applied to industry-facing food systems, Dilini's work connects composition, processing, quality, and sustainable product innovation.</p>
+      </div>
+
+      <div class="research-grid">
+        <!-- Card 1 -->
+        <div class="research-card reveal" style="--card-accent: #1B4332">
+          <div class="research-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6 L24 42 M14 16 Q24 12 34 16 M12 26 Q24 20 36 26 M14 36 Q24 30 34 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Grain & Food Analysis</h3>
+          <p>Advanced grain compositional analysis for premium food and beverage research, with attention to food quality, resource efficiency, and commercial relevance.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="research-card reveal" style="--card-accent: #2D6A4F">
+          <div class="research-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 10 L24 38 M10 24 L38 24 M13 13 L35 35 M35 13 L13 35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Legume & Biopolymer Chemistry</h3>
+          <p>Investigation of starch, protein, lipid, cell wall, and polyphenol interactions in legumes, especially the hard-to-cook defect linked to post-harvest storage.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="research-card reveal" style="--card-accent: #6B4226">
+          <div class="research-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 40 L16 20 Q16 8 24 8 Q32 8 32 20 L32 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12 40 L36 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 20 Q24 26 28 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Food Chemistry & Processing</h3>
+          <p>Analytical method development and process optimisation using chromatography, spectroscopy, rheology, texture analysis, and non-thermal technologies.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="research-card reveal" style="--card-accent: #D4A853">
+          <div class="research-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 22 L40 22 M8 30 L40 30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M16 8 L16 40 M32 8 L32 40" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Quality & Product Stability</h3>
+          <p>Quality control, microbial assessment, compositional analysis, and processing protocols that improve stability, texture, and manufacturing performance.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="research-card reveal" style="--card-accent: #1B4332">
+          <div class="research-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 36 Q16 20 24 24 Q32 28 40 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+              <circle cx="24" cy="24" r="3" fill="currentColor"/>
+              <path d="M8 40 L40 40" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Sustainable Food Innovation</h3>
+          <p>Development of plant-based and value-added food solutions that support sustainability, resource efficiency, and stronger links between research and industry.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="research-card reveal" style="--card-accent: #2D6A4F">
+          <div class="research-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 36 L24 12 L36 36" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 28 L32 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="24" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Industry Collaboration</h3>
+          <p>Interdisciplinary research partnerships across universities and food manufacturers, translating laboratory findings into practical food quality and product outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PUBLICATIONS ===================== -->
+  <section class="section publications" id="publications">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Scholarly Output</p>
+        <h2 class="section-title">Selected <em>Publications</em></h2>
+        <p class="section-intro">Recent publications from Dilini's Google Scholar profile, spanning hard-to-cook legume chemistry, grain storage, starch, plant biopolymers, and non-thermal processing.</p>
+      </div>
+
+      <div class="pub-list">
+
+        <!-- Publication 1 -->
+        <article class="pub-card reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-journal">Food Chemistry</span>
+          </div>
+          <h3 class="pub-title">Underexplored role of cell wall modifications in the hard-to-cook (HTC) phenomenon</h3>
+          <p class="pub-authors">D. Perera, L. Devkota, G. Kumar, J. Cowley, S. Dhital</p>
+          <p class="pub-abstract">A recent Food Chemistry publication examining how cell wall modifications contribute to the hard-to-cook phenomenon in legumes.</p>
+          <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=aou2B-oAAAAJ&amp;citation_for_view=aou2B-oAAAAJ:qjMakFHDy7sC" class="pub-link" aria-label="View publication on Google Scholar" target="_blank" rel="noopener noreferrer">View on Google Scholar</a>
+        </article>
+
+        <!-- Publication 2 -->
+        <article class="pub-card reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-journal">Food Hydrocolloids</span>
+          </div>
+          <h3 class="pub-title">Hard-to-cook (HTC) phenomenon associated changes in protein and lipid profile of faba and adzuki beans</h3>
+          <p class="pub-authors">D. Perera, L. Devkota, S. Shrestha, S. P. Bhattarai, J. Panozzo, S. Dhital</p>
+          <p class="pub-abstract">Research into protein and lipid profile changes associated with HTC quality in faba and adzuki beans.</p>
+          <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=aou2B-oAAAAJ&amp;citation_for_view=aou2B-oAAAAJ:d1gkVwhDpl0C" class="pub-link" aria-label="View publication on Google Scholar" target="_blank" rel="noopener noreferrer">View on Google Scholar</a>
+        </article>
+
+        <!-- Publication 3 -->
+        <article class="pub-card reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-journal">Carbohydrate Polymers</span>
+          </div>
+          <h3 class="pub-title">High temperature and humidity storage alter starch properties of faba and adzuki beans associated with hard-to-cook quality</h3>
+          <p class="pub-authors">D. Perera, B. Jia, L. Devkota, S. P. Bhattarai, J. Panozzo, S. Dhital</p>
+          <p class="pub-abstract">A 2025 study showing how high temperature and humidity storage alter starch properties linked to hard-to-cook quality.</p>
+          <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=aou2B-oAAAAJ&amp;citation_for_view=aou2B-oAAAAJ:Y0pCki6q_DkC" class="pub-link" aria-label="View publication on Google Scholar" target="_blank" rel="noopener noreferrer">View on Google Scholar</a>
+        </article>
+
+        <!-- Publication 4 -->
+        <article class="pub-card reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-journal">Journal of Food Engineering</span>
+          </div>
+          <h3 class="pub-title">Thermal energy generated during ultrasonication dominates pinto bean hydration</h3>
+          <p class="pub-authors">G. Kumar, D. Perera, D. T. Le, L. Devkota, S. Dhital</p>
+          <p class="pub-abstract">A Journal of Food Engineering publication identifying the dominant role of thermal energy in ultrasound-assisted pinto bean hydration.</p>
+          <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=aou2B-oAAAAJ&amp;citation_for_view=aou2B-oAAAAJ:ufrVoPGSRksC" class="pub-link" aria-label="View publication on Google Scholar" target="_blank" rel="noopener noreferrer">View on Google Scholar</a>
+        </article>
+
+        <!-- Publication 5 -->
+        <article class="pub-card reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-journal">Food Australia</span>
+          </div>
+          <h3 class="pub-title">The hard-to-cook phenomenon in Australian-grown faba and adzuki beans</h3>
+          <p class="pub-authors">S. Dhital, D. Perera</p>
+          <p class="pub-abstract">A recent Food Australia article discussing the hard-to-cook phenomenon in Australian-grown faba and adzuki beans.</p>
+          <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=aou2B-oAAAAJ&amp;citation_for_view=aou2B-oAAAAJ:u5HHmVD_uO8C" class="pub-link" aria-label="View publication on Google Scholar" target="_blank" rel="noopener noreferrer">View on Google Scholar</a>
+        </article>
+
+      </div>
+
+      <div class="pub-footer reveal">
+        <a href="https://scholar.google.com/citations?user=aou2B-oAAAAJ&amp;hl=en&amp;oi=ao" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View Google Scholar Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESEARCH PROJECTS ===================== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Active & Completed Work</p>
+        <h2 class="section-title">Research <em>Projects</em></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-number" aria-hidden="true">01</div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Legumes</span>
+              <span class="tag">Post-harvest</span>
+              <span class="tag">Biochemistry</span>
+            </div>
+            <h3>Hard-to-Cook Phenomenon in Australian Legumes</h3>
+            <p>Doctoral research investigating how post-harvest storage changes starch, protein, lipid, and cell wall composition in legumes. The work developed storage and hydration protocols and examined polyphenol-protein-cell wall relationships to improve cooking and textural quality.</p>
+            <div class="project-meta">
+              <span>Duration: 2022-2025</span>
+              <span>Monash University</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number" aria-hidden="true">02</div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Grains</span>
+              <span class="tag">Product Development</span>
+              <span class="tag">Plant Proteins</span>
+            </div>
+            <h3>Premium Food & Beverage Research</h3>
+            <p>Research through the Australian Food & Beverage Accelerator (FaBA), focusing on advanced grain compositional analysis, oat-based systems, plant proteins, product development, and industry collaboration for the Australian food sector.</p>
+            <div class="project-meta">
+              <span>Duration: 2025-Present</span>
+              <span>The University of Queensland</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number" aria-hidden="true">03</div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Ultrasound</span>
+              <span class="tag">Pulsed Electric Field</span>
+              <span class="tag">Texture</span>
+            </div>
+            <h3>Non-Thermal Processing for Legume Quality</h3>
+            <p>Application of ultrasound and pulsed electric field technologies to optimise hydration and texture in canned legumes, supported by rheology, texture profiling, microstructure imaging, and microbial quality control.</p>
+            <div class="project-meta">
+              <span>Duration: 2022-2025</span>
+              <span>Food processing optimisation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number" aria-hidden="true">04</div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Dairy</span>
+              <span class="tag">Quality Control</span>
+              <span class="tag">Microbiology</span>
+            </div>
+            <h3>Dairy Quality Control & Product Analysis</h3>
+            <p>Hands-on quality control and dairy product analysis experience covering physical, chemical, and microbiological testing of milk powder and liquid dairy products, packaging quality assessment, water treatment, and process optimisation.</p>
+            <div class="project-meta">
+              <span>Duration: 2018-2019</span>
+              <span>Fonterra Brands Sri Lanka</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Technical Expertise</p>
+        <h2 class="section-title">Skills & <em>Techniques</em></h2>
+        <p class="section-intro">A combined toolkit of advanced analytical chemistry, food science methodology, and applied product development.</p>
+      </div>
+
+      <div class="skills-columns">
+        <!-- Analytical Instruments -->
+        <div class="skills-group reveal">
+          <h3 class="skills-group-label">Analytical Instrumentation</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tier-1">HPLC</span>
+            <span class="skill-tag tier-1">GC</span>
+            <span class="skill-tag tier-1">LC-MS/MS</span>
+            <span class="skill-tag tier-1">UV-Vis Spectroscopy</span>
+            <span class="skill-tag tier-2">Spectrophotometry</span>
+            <span class="skill-tag tier-2">Microstructure Imaging</span>
+            <span class="skill-tag tier-2">Microbial QC</span>
+            <span class="skill-tag tier-2">Rheology</span>
+          </div>
+        </div>
+
+        <!-- Food Science Methods -->
+        <div class="skills-group reveal">
+          <h3 class="skills-group-label">Food Science Methods</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tier-1">Food Science</span>
+            <span class="skill-tag tier-1">Food Product Development</span>
+            <span class="skill-tag tier-1">Plant Proteins</span>
+            <span class="skill-tag tier-2">Legume Processing</span>
+            <span class="skill-tag tier-2">Texture Profile Analysis</span>
+            <span class="skill-tag tier-2">Hydration Protocols</span>
+            <span class="skill-tag tier-2">Non-Thermal Processing</span>
+          </div>
+        </div>
+
+        <!-- Research & Data -->
+        <div class="skills-group reveal">
+          <h3 class="skills-group-label">Research & Data</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tier-1">Analytical Method Development</span>
+            <span class="skill-tag tier-1">Laboratory Management</span>
+            <span class="skill-tag tier-2">OHS Compliance</span>
+            <span class="skill-tag tier-2">SOP Development</span>
+            <span class="skill-tag tier-2">Teaching & Training</span>
+            <span class="skill-tag tier-2">Attention to Detail</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Career</p>
+        <h2 class="section-title">Academic & Industry <em>Experience</em></h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">August 2025 - Present</div>
+            <h3 class="timeline-role">Researcher - Food Analysis</h3>
+            <p class="timeline-org">The University of Queensland, Brisbane, QLD</p>
+            <p class="timeline-desc">Driving innovation in premium food and beverage research through the Australian Food & Beverage Accelerator (FaBA), with a focus on advanced grain compositional analysis, product development, and industry collaboration. Specialising in oat-based and plant-protein systems and bridging laboratory research with commercial applications.</p>
+            <div class="timeline-tags">
+              <span class="tag">Food Analysis</span>
+              <span class="tag">Industry Liaison</span>
+              <span class="tag">Product Development</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">February 2022 - July 2025</div>
+            <h3 class="timeline-role">PhD Researcher / Teaching Associate / Lab Manager</h3>
+            <p class="timeline-org">Monash University, Clayton, VIC</p>
+            <p class="timeline-desc">Investigated the hard-to-cook defect in Australian legumes, linking post-harvest storage to starch, protein, lipid, and cell wall changes. Applied HPLC, LC-MS/MS, UV-Vis, rheology, texture profiling, microstructure imaging, and microbial QC while contributing to plant-based product innovation from prototype to commercial feasibility.</p>
+            <div class="timeline-tags">
+              <span class="tag">PhD Research</span>
+              <span class="tag">Food Engineering</span>
+              <span class="tag">Laboratory Management</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">Teaching & Lab Leadership</div>
+            <h3 class="timeline-role">Teaching Fellow and Laboratory Manager</h3>
+            <p class="timeline-org">Monash University</p>
+            <p class="timeline-desc">Delivered lectures and practical classes for Food Processing and Food Engineering. Trained students in HPLC, GC, spectrophotometry, rheology, texture analysis, drying, membrane separation, and thermal processing. Led OHS compliance, SOP updates, inductions, risk assessments, safety upgrades, equipment maintenance, chemical inventory, and procurement.</p>
+            <div class="timeline-tags">
+              <span class="tag">Teaching</span>
+              <span class="tag">OHS</span>
+              <span class="tag">SOPs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">December 2018 - December 2019</div>
+            <h3 class="timeline-role">In Plant Trainee</h3>
+            <p class="timeline-org">Fonterra Brands Sri Lanka, Biyagama, Western, Sri Lanka</p>
+            <p class="timeline-desc">Gained hands-on experience in quality control and dairy product analysis, focusing on physical, chemical, and microbiological testing of milk powder and liquid dairy products. Conducted packaging material quality assessments and developed understanding of dairy production, water treatment, and process optimisation.</p>
+            <div class="timeline-tags">
+              <span class="tag">Quality Control</span>
+              <span class="tag">Dairy Analysis</span>
+              <span class="tag">Manufacturing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">February 2022 - July 2025</div>
+            <h3 class="timeline-role">Doctor of Philosophy - PhD, Chemical and Biological Engineering</h3>
+            <p class="timeline-org">Monash University</p>
+            <p class="timeline-desc">Doctoral research in food engineering and legume biochemistry, with emphasis on the hard-to-cook phenomenon, analytical food chemistry, and processing optimisation.</p>
+            <div class="timeline-tags">
+              <span class="tag">PhD</span>
+              <span class="tag">Chemical Engineering</span>
+              <span class="tag">Food Biochemistry</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">January 2015 - December 2019</div>
+            <h3 class="timeline-role">BSc (Honours) in Food Science & Technology</h3>
+            <p class="timeline-org">University of Sri Jayewardenepura, Sri Lanka</p>
+            <p class="timeline-desc">Honours degree in Food Science and Technology. Awarded the Professor W.S. Fernando Gold Medal and Gold Medal for the Best Student in Food Science and Technology.</p>
+            <div class="timeline-tags">
+              <span class="tag">Undergraduate</span>
+              <span class="tag">Food Science</span>
+              <span class="tag">Gold Medal</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2 class="section-title">Open to <em>Collaboration</em></h2>
+        <p class="section-intro">Whether you're a researcher, industry partner, or student, Dilini welcomes collaborations, research opportunities, and industry partnerships that advance food science and technology.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact info -->
+        <div class="contact-info reveal">
+          <div class="contact-links">
+            <a href="mailto:diliniperera96@yahoo.com" class="contact-item">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">diliniperera96@yahoo.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/dilini-perera-926a03116/" class="contact-item" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">in</span>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/dilini-perera-926a03116</span>
+              </div>
+            </a>
+            <a href="https://scholar.google.com/citations?user=aou2B-oAAAAJ&amp;hl=en&amp;oi=ao" class="contact-item" aria-label="Google Scholar profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">GS</span>
+              <div>
+                <span class="contact-label">Google Scholar</span>
+                <span class="contact-value">scholar.google.com/citations?user=aou2B-oAAAAJ</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-affiliation">
+            <p class="affil-label">Current Affiliation</p>
+            <p class="affil-name">Researcher - Food Analysis</p>
+            <p class="affil-institution">The University of Queensland, Brisbane, QLD</p>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+              <span class="field-error" id="name-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+              <span class="field-error" id="email-error"></span>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Research collaboration / General inquiry" />
+            <span class="field-error" id="subject-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or inquiry…"></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-success" id="form-success" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-mark">DP</span>
+          <span>Dr. Dilini Perera</span>
+        </div>
+        <p class="footer-tagline">Food Scientist · Biochemist · Grain Researcher</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; <span id="footer-year"></span> Dr. Dilini Perera. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== BACK TO TOP ===================== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
