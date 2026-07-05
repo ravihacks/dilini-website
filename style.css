@@ -1417,7 +1417,7 @@ h1, h2, h3, h4 {
   }
 
   .stat {
-    flex: 1 1 40%;
+    flex: 1 1 auto;
     padding: 0.5rem;
   }
 
